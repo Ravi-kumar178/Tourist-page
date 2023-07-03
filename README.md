@@ -2,6 +2,9 @@
 Adding a image to README.md
 background.png
 foreground.png
+sports-1.jpg
+sports-2.jpg
+sports-3.jpg
 
 
 
