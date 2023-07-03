@@ -70,3 +70,112 @@
 </body>
 </html>
 
+# cssfile
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.wrapper{
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y: auto;
+    perspective:10px;
+}
+
+.container{
+    position:relative;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background,.foreground{
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.background{
+    transform: translateZ(-40px) scale(5);
+}
+
+.foreground{
+    transform:translateZ(-20px) scale(3);
+}
+
+h1{
+    position:absolute;
+    top:200px;
+    font-size:100px;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color:white;
+}
+
+.bg1{
+    background-image: url(sport-1.jpg);
+}
+
+.bg2{
+    background-image: url(sport-2.jpg)
+}
+
+.bg3{
+    background-image: url(sport-3.jpg);
+}
+
+section{
+    background-color: rgb(45,45,45);
+    position:relative;
+    color:white;
+    padding: 5rem 0;
+}
+.secHeading{
+   font-size: 5rem;
+   padding: 0 10rem;
+   
+}
+
+
+.text{
+    font-size:1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+    
+}
+
+.bg{
+    position:relative;
+    width:100%;
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.desc{
+    position:absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    color:black;
+    font-size:3.5rem;
+    font-weight: 600;
+}
+
+.clr{
+    background-color: rgb(45,45,45);
+    color:white;
+}
+
+
