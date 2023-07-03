@@ -1,6 +1,7 @@
 # Tourist-page
 Adding a image to README.md
 background.png
+foreground.png
 
 
 
